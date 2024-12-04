@@ -1,6 +1,3 @@
-Here's the full README file in markdown format:
-
-```markdown
 # Machine Learning Model Deployment with Streamlit
 
 ### Introduction
@@ -9,6 +6,7 @@ This project demonstrates how to build, preprocess, and deploy a machine learnin
 ### Installation
 To set up and run this project, follow these steps:
 
+```markdown
 **Clone the Repository:**
 ```bash
 git clone https://github.com/mirsaidl/Customer_Churn.git
