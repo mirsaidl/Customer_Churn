@@ -36,7 +36,17 @@ This command will launch the Streamlit app, which will open in your default web 
 
 ### Data Familiarization
 Dataset Overview: The dataset contains the following columns:
-CustomerID, Age, Gender, Tenure, Usage Frequency, Support Calls, Payment Delay, Subscription Type, Contract Length, Total Spend, Last Interaction, Churn.
+CustomerID: Unique identifier for each customer.
+Age: Age of the customer.
+Gender: Select from options (e.g., Male, Female).
+Tenure: Duration of the customer’s subscription.
+Usage Frequency: Frequency of usage (e.g., Weekly, Monthly).
+Support Calls: Number of support calls made.
+Payment Delay: Delay in payment (e.g., in days).
+Subscription Type: Type of subscription (e.g., Basic, Premium).
+Contract Length: Duration of the contract.
+Total Spend: Total amount spent by the customer.
+Last Interaction: Days since the last interaction.
 
 Data Types:
 Categorical columns: Gender, Subscription Type, Contract Length.
