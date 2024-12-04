@@ -1,7 +1,3 @@
-Here's a detailed README file for your project:
-
----
-
 # Machine Learning Model Deployment with Streamlit
 
 ## Overview
