@@ -1,8 +1,8 @@
 Machine Learning Model Deployment with Streamlit
-— Introduction
+### Introduction
 This project demonstrates how to build, preprocess, and deploy a machine learning model for predicting customer churn using Python. The user-friendly interface is created with Streamlit, allowing seamless interaction and predictions.
 
-— Installation
+### Installation
 To set up and run this project, follow these steps:
 
 Clone the Repository:
@@ -37,15 +37,20 @@ This command will launch the Streamlit app, which will open in your default web 
 ### Data Familiarization
 Dataset Overview: The dataset contains the following columns:
 CustomerID, Age, Gender, Tenure, Usage Frequency, Support Calls, Payment Delay, Subscription Type, Contract Length, Total Spend, Last Interaction, Churn.
+
 Data Types:
 Categorical columns: Gender, Subscription Type, Contract Length.
 Numerical columns: Age, Tenure, Usage Frequency, etc.
 Initial Insights: Identified data columns and prepared them for preprocessing and model training.
-— Data Analysis (EDA)
+
+## Data Analysis (EDA)
 Exploratory Data Analysis (EDA):
 Examined the distribution of features like Age, Tenure, and Total Spend.
+
 Analyzed relationships between Churn and input features.
+
 Detected missing values and outliers that required attention.
+
 Visualization: Used data visualization tools (e.g., Seaborn, Matplotlib) for histograms, bar charts, and correlation plots to understand feature distributions and interactions.
 
 
@@ -58,8 +63,7 @@ Pipeline Creation: Created and saved a preprocessing pipeline using joblib, whic
 ### Model Development / ML
 Model Selection: Chose an appropriate machine learning model, such as logistic regression or other classification models.
 Training the Model: Trained the model on the preprocessed training data.
-Evaluation Metrics:
-Calculated metrics like accuracy, precision, recall, and F1 score.
+Evaluation Metrics: Calculated metrics like accuracy, precision, recall, and F1 score.
 Visualized the confusion matrix to assess true/false positives and negatives.
 Model Saving: Saved the trained model using joblib to facilitate loading during deployment.
 
